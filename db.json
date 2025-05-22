@@ -1,0 +1,164 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "gender": "Female",
+      "department": "Engineering",
+      "salary": 95000,
+      "startdate": "2022-03-15"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "gender": "Male",
+      "department": "Marketing",
+      "salary": 72000,
+      "startdate": "2021-08-20"
+    },
+    {
+      "id": 3,
+      "name": "Emily Davis",
+      "gender": "Female",
+      "department": "Human Resources",
+      "salary": 68000,
+      "startdate": "2020-11-10"
+    },
+    {
+      "id": 4,
+      "name": "James Rodriguez",
+      "gender": "Male",
+      "department": "Finance",
+      "salary": 82000,
+      "startdate": "2019-05-08"
+    },
+    {
+      "id": 5,
+      "name": "Amanda Thompson",
+      "gender": "Female",
+      "department": "Sales",
+      "salary": 58000,
+      "startdate": "2023-01-12"
+    },
+    {
+      "id": 6,
+      "name": "David Wilson",
+      "gender": "Male",
+      "department": "Engineering",
+      "salary": 105000,
+      "startdate": "2018-09-25"
+    },
+    {
+      "id": 7,
+      "name": "Lisa Anderson",
+      "gender": "Female",
+      "department": "Operations",
+      "salary": 75000,
+      "startdate": "2022-07-03"
+    },
+    {
+      "id": 8,
+      "name": "Robert Kumar",
+      "gender": "Male",
+      "department": "IT Support",
+      "salary": 52000,
+      "startdate": "2021-12-14"
+    },
+    {
+      "id": 9,
+      "name": "Jessica Martinez",
+      "gender": "Female",
+      "department": "Marketing",
+      "salary": 64000,
+      "startdate": "2020-04-18"
+    },
+    {
+      "id": 10,
+      "name": "Christopher Lee",
+      "gender": "Male",
+      "department": "Finance",
+      "salary": 89000,
+      "startdate": "2019-10-30"
+    },
+    {
+      "id": 11,
+      "name": "Rachel Green",
+      "gender": "Female",
+      "department": "Human Resources",
+      "salary": 71000,
+      "startdate": "2023-06-01"
+    },
+    {
+      "id": 12,
+      "name": "Kevin Park",
+      "gender": "Male",
+      "department": "Engineering",
+      "salary": 98000,
+      "startdate": "2021-02-28"
+    },
+    {
+      "id": 13,
+      "name": "Nicole Brown",
+      "gender": "Female",
+      "department": "Sales",
+      "salary": 61000,
+      "startdate": "2022-11-16"
+    },
+    {
+      "id": 14,
+      "name": "Andrew Taylor",
+      "gender": "Male",
+      "department": "Operations",
+      "salary": 77000,
+      "startdate": "2020-08-05"
+    },
+    {
+      "id": 15,
+      "name": "Stephanie White",
+      "gender": "Female",
+      "department": "IT Support",
+      "salary": 55000,
+      "startdate": "2023-03-22"
+    },
+    {
+      "id": 16,
+      "name": "Brandon Miller",
+      "gender": "Male",
+      "department": "Marketing",
+      "salary": 69000,
+      "startdate": "2019-12-12"
+    },
+    {
+      "id": 17,
+      "name": "Melissa Garcia",
+      "gender": "Female",
+      "department": "Finance",
+      "salary": 84000,
+      "startdate": "2021-09-07"
+    },
+    {
+      "id": 18,
+      "name": "Daniel Smith",
+      "gender": "Male",
+      "department": "Engineering",
+      "salary": 110000,
+      "startdate": "2017-06-14"
+    },
+    {
+      "id": 19,
+      "name": "Ashley Jones",
+      "gender": "Female",
+      "department": "Sales",
+      "salary": 59000,
+      "startdate": "2022-05-09"
+    },
+    {
+      "id": 20,
+      "name": "Ryan Campbell",
+      "gender": "Male",
+      "department": "Operations",
+      "salary": 73000,
+      "startdate": "2020-01-20"
+    }
+  ]
+}

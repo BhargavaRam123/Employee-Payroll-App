@@ -5,5 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <link rel="stylesheet" href="./manage.css" />
+  <body>
+    <div class="maincontainer">
+      <div class="tcon">
+        <div class="sc">
+          <input type="text" oninput="searchFunc(event)" />
+          <img src="./search-svgrepo-com.svg" alt="" class="svg" />
+          <img src="./sort-svgrepo-com.svg" alt="" class="svg" />
+        </div>
+      </div>
+      <table class="tb">
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>GENDER</th>
+          <th>DEPARTMENT</th>
+          <th>SALARY</th>
+          <th>SDATE</th>
+        </tr>
+      </table>
+    </div>
+    <script src="manage.js"></script>
+  </body>
 </html>
