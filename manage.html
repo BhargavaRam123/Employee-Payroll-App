@@ -9,40 +9,106 @@
   <body>
     <div class="modelcontainer">
       <div class="model">
-        <form action="">
+        <form onsubmit="formsubmitfunc(event)" id="form">
           <div>
             <label for="id">Id</label>
-            <input type="text" id="id" />
+            <input
+              name="id"
+              type="text"
+              id="id"
+              required
+              minlength="3"
+              maxlength="10"
+              pattern="[A-Z0-9]+"
+              title="Only uppercase letters and numbers allowed"
+            />
           </div>
           <div>
             <label for="name">Name</label>
-            <input type="text" id="name" />
+            <input
+              name="name"
+              type="text"
+              id="name"
+              required
+              minlength="2"
+              maxlength="50"
+              pattern="[A-Za-z\s]+"
+              title="Only letters and spaces allowed"
+            />
+          </div>
+          <div>
+            <label for="gender">Gender</label>
+            <input
+              name="gender"
+              type="text"
+              id="gender"
+              required
+              minlength="2"
+              maxlength="50"
+            />
           </div>
           <div>
             <label for="dep">Department</label>
-            <input type="text" id="dep" />
+            <input
+              name="department"
+              type="text"
+              id="dep"
+              required
+              pattern="HR|IT|Finance|Marketing|Sales|Operations|Legal"
+              title="Must be one of: HR, IT, Finance, Marketing, Sales, Operations, Legal"
+            />
           </div>
           <div>
             <label for="salary">Salary</label>
-            <input type="text" id="salary" />
+            <input
+              name="salary"
+              type="number"
+              id="salary"
+              required
+              min="1000"
+              max="1000000"
+              title="Only salary less than 10 lakhs is allowed"
+            />
           </div>
           <div>
             <label for="sdate">Sdate</label>
-            <input type="date" id="sdate" />
+            <input
+              name="startdate"
+              type="date"
+              id="sdate"
+              required
+              min="2020-01-01"
+              max="2025-05-01"
+              title="Date should be less than this month"
+            />
           </div>
           <div class="mbtn">
-            <button onclick="togglemodel(event)">Cancel</button>
+            <button type="button" onclick="togglemodel(event)">Cancel</button>
             <button type="submit">Submit</button>
           </div>
         </form>
       </div>
     </div>
+    <div class="emodelcontainer">
+      <div class="emodel"></div>
+    </div>
     <div class="maincontainer">
       <div class="tcon">
         <div class="sc">
-          <input type="text" oninput="searchFunc(event)" />
+          <input
+            type="text"
+            oninput="searchFunc(event)"
+            class="inptcontainer"
+          />
           <img src="./assets/search-svgrepo-com.svg" alt="" class="svg" />
-          <img src="./assets/sort-svgrepo-com.svg" alt="" class="svg" />
+          <img src="./assets/sort-svgrepo-com.svg" alt="" class="svg sort" />
+          <div>
+            <select name="sort" id="sort" onchange="sortfunc(event)">
+              <option value="na">NA</option>
+              <option value="ASC">ASC</option>
+              <option value="DSC">DSC</option>
+            </select>
+          </div>
           <div class="new" onclick="activatemodel(event)">Add New Employee</div>
         </div>
       </div>
