@@ -9,19 +9,41 @@
   <body>
     <div class="modelcontainer">
       <div class="model">
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
-        <input type="text" />
+        <form action="">
+          <div>
+            <label for="id">Id</label>
+            <input type="text" id="id" />
+          </div>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="dep">Department</label>
+            <input type="text" id="dep" />
+          </div>
+          <div>
+            <label for="salary">Salary</label>
+            <input type="text" id="salary" />
+          </div>
+          <div>
+            <label for="sdate">Sdate</label>
+            <input type="date" id="sdate" />
+          </div>
+          <div class="mbtn">
+            <button onclick="togglemodel(event)">Cancel</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="maincontainer">
       <div class="tcon">
         <div class="sc">
           <input type="text" oninput="searchFunc(event)" />
-          <img src="./search-svgrepo-com.svg" alt="" class="svg" />
-          <img src="./sort-svgrepo-com.svg" alt="" class="svg" />
-          <div class="new">Add New Employee</div>
+          <img src="./assets/search-svgrepo-com.svg" alt="" class="svg" />
+          <img src="./assets/sort-svgrepo-com.svg" alt="" class="svg" />
+          <div class="new" onclick="activatemodel(event)">Add New Employee</div>
         </div>
       </div>
       <table class="tb">

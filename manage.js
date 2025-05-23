@@ -16,8 +16,8 @@ val
             <td>${o.salary}</td>
             <td>${o.startdate}</td>
             <td>
-            <img src="./edit-3-svgrepo-com.svg" alt="" class="svg" />
-            <img src="./delete-1487-svgrepo-com.svg" alt="" class="svg" />
+            <img src="./assets/edit-3-svgrepo-com.svg" alt="" class="svg" />
+            <img src="./assets/delete-1487-svgrepo-com.svg" alt="" class="svg" />
           </td>
         </tr>`;
     });
@@ -55,9 +55,20 @@ function searchFunc(e) {
             <td>${o.salary}</td>
             <td>${o.startdate}</td>
             <td>
-            <img src="./edit-3-svgrepo-com.svg" alt="" class="svg" />
-            <img src="./delete-1487-svgrepo-com.svg" alt="" class="svg" />
+            <img src="./assets/edit-3-svgrepo-com.svg" alt="" class="svg" />
+            <img src="./assets/delete-1487-svgrepo-com.svg" alt="" class="svg" />
           </td>
         </tr>`;
   });
+}
+
+function togglemodel(e) {
+  e.preventDefault();
+  document.getElementsByClassName("model")[0].style.display = "none";
+  document.getElementsByClassName("modelcontainer")[0].style.display = "none";
+  console.log("value is");
+}
+function activatemodel(e) {
+  document.getElementsByClassName("model")[0].style.display = "flex";
+  document.getElementsByClassName("modelcontainer")[0].style.display = "flex";
 }
